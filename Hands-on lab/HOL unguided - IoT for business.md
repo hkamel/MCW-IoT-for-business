@@ -1,4 +1,5 @@
-![](images/HeaderPic.png "Microsoft Cloud Workshops")
+![](https://github.com/Microsoft/MCW-Template-Cloud-Workshop/raw/master/Media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
+
 
 <div class="MCWHeader1">
 IoT for business
@@ -32,10 +33,6 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
     - [Overview](#overview)
     - [Solution architecture](#solution-architecture)
     - [Requirements](#requirements)
-    - [Before the hands-on lab](#before-the-hands-on-lab)
-        - [Task 1: Perform a deployment of the LABVM](#task-1-perform-a-deployment-of-the-labvm)
-        - [Task 2: Validate connectivity to Azure](#task-2-validate-connectivity-to-azure)
-        - [Task 3: Download and explore the solution files](#task-3-download-and-explore-the-solution-files)
     - [Exercise 1: Azure data, storage, and serverless environment setup](#exercise-1-azure-data-storage-and-serverless-environment-setup)
         - [Help references](#help-references)
         - [Task 1: Execute CLI commands](#task-1-execute-cli-commands)
