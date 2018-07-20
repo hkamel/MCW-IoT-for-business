@@ -1,5 +1,4 @@
-![](https://github.com/Microsoft/MCW-Template-Cloud-Workshop/raw/master/Media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
-
+![Microsoft Cloud Workshops](https://github.com/Microsoft/MCW-Template-Cloud-Workshop/raw/master/Media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
 
 <div class="MCWHeader1">
 IoT for business
@@ -168,7 +167,7 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
 
 Use the unique benefits of Internet of Things (IoT) to build a smart city solution to help improve traffic and public transportation in New York City. Use a combination of the power of the cloud, along with IoT Edge devices to provide anomaly detection of city buses (engine anomalies and aggressive driving detection), location broadcasting to update bus route status, and to send traffic information to help inform the timing of traffic lights. Traffic lights will also receive new IoT devices that can help detect maintenance and performance issues, such as voltage irregularities. Easily view all of this information through a centralized reporting dashboard provided by Azure Time Series Insights. Use the IoT Remote Monitoring starter solution to manage and simulate IoT devices, set alerts, and view data on a map.
 
-Learning Objectives:
+Learning objectives:
 
 -   Use IoT Hub to manage IoT devices
 
