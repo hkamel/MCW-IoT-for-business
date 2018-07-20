@@ -246,13 +246,13 @@ In this exercise, you will execute a series of command-line scripts to provision
 
 6.  After stopping the simulation, take a moment to browse through the site. You will notice an interactive map as the centerpiece, provided by the Bing Maps and the Bing Maps API for Enterprise service that was provisioned as part of the solution. This will display each of your IoT devices that have location information.
 
-    -   To the left of the map is a count of the devices, as well as the number of alarms and warnings that have been triggered based on preconfigured rules. We will add custom rules later on.
+    a. To the left of the map is a count of the devices, as well as the number of alarms and warnings that have been triggered based on preconfigured rules. We will add custom rules later on.
 
-    -   Directly to the right of the map is a list of system alarms for the displayed devices.
+    b. Directly to the right of the map is a list of system alarms for the displayed devices.
 
-    -   Beneath the map is a flowing line chart that displays telemetry data for selected devices and data points.
+    c. Beneath the map is a flowing line chart that displays telemetry data for selected devices and data points.
 
-    -   To the right of the chart is a list of system KPIs (key performance indicators) that shows the number of alarms by device type and whether that number is increasing or decreasing.
+    d. To the right of the chart is a list of system KPIs (key performance indicators) that shows the number of alarms by device type and whether that number is increasing or decreasing.
     
     ![Screenshot of the Azure IoT Suite Remote Monitoring Preview window.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image19.png "Azure IoT Suite Remote Monitoring Preview window")
 
