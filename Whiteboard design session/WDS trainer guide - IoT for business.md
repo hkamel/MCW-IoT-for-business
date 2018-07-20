@@ -242,11 +242,9 @@ Following this same mandate of ease of use and future flexibility without overta
 
 3.  We are concerned about rolling out updates to all edge devices at once, in case there's a problem. Can we deploy updates to small groups instead?
 
-
 ### Infographic for common scenarios
 
 ![A Common Scenario of Internet of Things flowchart is split between Azure and On-Premises. At a high leve, Azure steps are: Ingest, Stream Processing, Batch Storage, Speed Serving, Batch Processing, Batch View Serving, and Analytics Clients.](images/Whiteboarddesignsessiontrainerguide-IoTforbusinessimages/media/image2.png "Common Scenario for IoT")
-
 
 ## Step 2: Design a proof of concept solution
 
@@ -272,7 +270,7 @@ Directions: With all participants at your table, respond to the following questi
 
 *IoT Devices*
 
-1.  Which data ingest service would you use for this scenario, IoT Hub or Event Hubs? Be specific
+1.  Which data ingest service would you use for this scenario, IoT Hub or Event Hubs? Be specific.
 
 2.  How will you process the vehicle telemetry data locally to only send important data about driver performance or potential mechanical issues while the bus is in transit, with limited data connectivity?
 
