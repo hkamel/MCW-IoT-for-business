@@ -6,7 +6,7 @@ IoT for business
 </div>
 
 <div class="MCWHeader2">
-Whiteboard design session student guide
+Whiteboard design session trainer guide
 </div>
 
 <div class="MCWHeader3">
