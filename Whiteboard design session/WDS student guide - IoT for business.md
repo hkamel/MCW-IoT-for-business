@@ -1,4 +1,4 @@
-![](https://github.com/Microsoft/MCW-Template-Cloud-Workshop/raw/master/Media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
+![Microsoft Cloud Workshop](https://github.com/Microsoft/MCW-Template-Cloud-Workshop/raw/master/Media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
 
 
 <div class="MCWHeader1">
@@ -31,10 +31,10 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
 - [IoT for business whiteboard design session student guide](#iot-for-business-whiteboard-design-session-student-guide)
     - [Abstract and learning objectives](#abstract-and-learning-objectives)
     - [Step 1: Review the customer case study](#step-1-review-the-customer-case-study)
-            - [Customer situation](#customer-situation)
-            - [Customer needs](#customer-needs)
-            - [Customer objections](#customer-objections)
-            - [Infographic for common scenarios](#infographic-for-common-scenarios)
+         - [Customer situation](#customer-situation)
+         - [Customer needs](#customer-needs)
+         - [Customer objections](#customer-objections)
+         - [Infographic for common scenarios](#infographic-for-common-scenarios)
     - [Step 2: Design a proof of concept solution](#step-2-design-a-proof-of-concept-solution)
     - [Step 3: Present the solution](#step-3-present-the-solution)
     - [Wrap-up](#wrap-up)
@@ -48,7 +48,7 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
 
 Use the unique benefits of Internet of Things (IoT) to build a smart city solution to help improve traffic and public transportation in New York City. Use a combination of the power of the cloud, along with IoT Edge devices to provide predictive maintenance of city buses, including machine learning for anomaly detection, location broadcasting to update bus route status, and to send traffic information to help inform the timing of traffic lights. Traffic lights will also receive new IoT devices that can help detect maintenance and performance issues, such as when a bulb is out. Easily view all of this information through a centralized reporting dashboard provided by Azure Time Series Insights.
 
-Learning Objectives:
+Learning objectives:
 
 -   Use Azure IoT Edge to collect vehicle telemetry data, detect anomalies with the help of a local Azure Machine Learning model, and send the summarized data to Azure IoT Hub as needed
 
@@ -65,22 +65,23 @@ Learning Objectives:
 **Outcome** 
 
 Analyze your customer’s needs.
-Time frame: 15 minutes 
+
+Timeframe: 15 minutes 
+
 Directions: With all participants in the session, the facilitator/SME presents an overview of the customer case study along with technical tips. 
 1.  Meet your table participants and trainer 
 2.  Read all of the directions for steps 1–3 in the student guide 
 3.  As a table team, review the following customer case study
 
-
 #### Customer situation
 
 New York City council has conducted a six-month study of new and emerging technologies that can improve the lives of its citizens. Being the largest city in the US, the challenges most cities face are compounded by scale. Many of these challenges revolve around city traffic and public transportation.
 
-??At the conclusion of their study, the city council realized that the Internet of Things (IoT) is widely available and are becoming more integrated into our daily lives. NYC can capitalize on the wide availability and affordability of IoT devices. This means physical things like traffic lights and vehicles will be able to collect and share data by connecting to the Internet. Through analytics, cities can turn this data into intelligent information that will change the way the world works.
+At the conclusion of their study, the city council realized that the Internet of Things (IoT) is widely available and are becoming more integrated into our daily lives. NYC can capitalize on the wide availability and affordability of IoT devices. This means physical things like traffic lights and vehicles will be able to collect and share data by connecting to the Internet. Through analytics, cities can turn this data into intelligent information that will change the way the world works.
 
-??They realize that IoT offers cities revolutionary ways to gather this vital data. Analyzing this information to understand how a city operates will improve response times for everyday purposes and acute emergencies. This wave of change will enable innovation, new services, and cost savings. However, if NYC is going to be \"smart\" (that is, IoT-connected), it needs to devise a strategy for deploying technologies rather than allowing 1,000 ad-hoc systems to take root without forethought. A proactive strategy will maximize the return on an IoT investment.
+They realize that IoT offers cities revolutionary ways to gather this vital data. Analyzing this information to understand how a city operates will improve response times for everyday purposes and acute emergencies. This wave of change will enable innovation, new services, and cost savings. However, if NYC is going to be \"smart\" (that is, IoT-connected), it needs to devise a strategy for deploying technologies rather than allowing 1,000 ad-hoc systems to take root without forethought. A proactive strategy will maximize the return on an IoT investment.
 
-??New York City buses are widely used throughout the many boroughs, such as Manhattan, Brooklyn, and the Bronx. It would make sense to somehow attach IoT devices to those buses to perform a number of functions such as preventive maintenance and tracking driver performance. It would be great if only the most important information is sent off over the internet instead of constantly sending a lot of data over expensive cellular connectivity. The most important information could be described as anomalies, like impending mechanical breakdowns or reckless driving. The buses will periodically send their location information that can be used to track their progress on their route. All of the information can be uploaded once the bus arrives at its home station where it has Wi-Fi connectivity. The full data could then be used for accounting and analysis of the data collected throughout the day.
+New York City buses are widely used throughout the many boroughs, such as Manhattan, Brooklyn, and the Bronx. It would make sense to somehow attach IoT devices to those buses to perform a number of functions such as preventive maintenance and tracking driver performance. It would be great if only the most important information is sent off over the internet instead of constantly sending a lot of data over expensive cellular connectivity. The most important information could be described as anomalies, like impending mechanical breakdowns or reckless driving. The buses will periodically send their location information that can be used to track their progress on their route. All of the information can be uploaded once the bus arrives at its home station where it has Wi-Fi connectivity. The full data could then be used for accounting and analysis of the data collected throughout the day.
 
 Because these buses are so prevalent on all the major roads, they should be able to act as traffic bellwethers, using that information along with their location to inform the timing of traffic lights. These traffic lights contain control boxes that can be remotely controlled.
 
@@ -92,27 +93,27 @@ Relecloud has been contracted to build a cloud-based architecture based on these
 
 Following this same mandate of ease of use and future flexibility without overtaxing an already busy city IT department, Relecloud is seeking options for capturing and displaying time series data that allows the end user to easily combine all of the data in any number of ways, with advanced querying and filtering options, and that can automatically handle schema changes of incoming telemetry and new device types as they are added. Additionally, this data needs to be accessible by an external web application for managing alerts and device management and must be able to display the raw data within a given timeframe, without pre-aggregation, at scale.
 
-#### Customer needs 
+### Customer needs 
 
-1.  Reduce bus maintenance costs by analyzing city bus telemetry and applying predictive analysis provided by a trained machine learning model.
+1.  Reduce bus maintenance costs by analyzing city bus telemetry and applying predictive analysis provided by a trained machine learning model
 
-2.  Detect other anomalies, such as bus driver behavior, that can be sent as needed.
+2.  Detect other anomalies, such as bus driver behavior, that can be sent as needed
 
-3.  Reduce the amount of information transmitted to the cloud by buses, which use expensive cellular data.
+3.  Reduce the amount of information transmitted to the cloud by buses, which use expensive cellular data
 
-4.  Store the bus telemetry data locally when offline and send when internet connectivity is available.
+4.  Store the bus telemetry data locally when offline and send when internet connectivity is available
 
-5.  Send regular location updates of city buses that can be used to display on a map, update bus routes, and track traffic conditions.
+5.  Send regular location updates of city buses that can be used to display on a map, update bus routes, and track traffic conditions
 
-6.  Use the traffic information from the buses to help inform the timing of traffic lights.
+6.  Use the traffic information from the buses to help inform the timing of traffic lights
 
-7.  Install IoT devices on traffic lights for maintenance purposes.
+7.  Install IoT devices on traffic lights for maintenance purposes
 
 8.  Easily combine all of the time series data in a single pane of view, with advanced querying and filtering options, and that can automatically handle schema changes of incoming telemetry and new device types as they are added.
 
-9.  Have a custom web application to view the buses and traffic lights on a map, manage device provisioning, alert rules, reference data, and control messages.
+9.  Have a custom web application to view the buses and traffic lights on a map, manage device provisioning, alert rules, reference data, and control messages
 
-#### Customer objections 
+### Customer objections 
 
 1.  If bus data is collected offline and sent later on, how can we be certain that the time series data is not displayed out of order from when it was captured?
 
@@ -120,17 +121,17 @@ Following this same mandate of ease of use and future flexibility without overta
 
 3.  We are concerned about rolling out updates to all edge devices at once, in case there's a problem. Can we deploy updates to small groups instead?
 
-
-#### Infographic for common scenarios
+### Infographic for common scenarios
 
 ![A Common Scenario of Internet of Things flowchart is split between Azure and On-Premises. At a high leve, Azure steps are: Ingest, Stream Processing, Batch Storage, Speed Serving, Batch Processing, Batch View Serving, and Analytics Clients.](images/Whiteboarddesignsessionstudentguide-IoTforbusinessimages/media/image2.png "Common Scenario for IoT")
 
 ## Step 2: Design a proof of concept solution
 
 **Outcome** 
+
 Design a solution and prepare to present the solution to the target customer audience in a 15-minute chalk-talk format. 
 
-Time frame: 60 minutes
+Timeframe: 60 minutes
 
 **Business needs**
 
@@ -139,15 +140,14 @@ Directions: With all participants at your table, answer the following questions 
 2.  What customer business needs do you need to address with your solution?
 
 **Design** 
-Directions: With all participants at your table, respond to the following questions on a flip chart.
 
+Directions: With all participants at your table, respond to the following questions on a flip chart.
 
  *High-level architecture*
 
 1.  Without getting into the details (the following sections will address the particular details), diagram your initial vision for handling the top-level requirements for the bus and traffic light IoT devices, data ingestion, storage, and visualization.
 
-    *IoT Devices*
-
+*IoT Devices*
 
 1.  Which data ingest service would you use for this scenario, IoT Hub or Event Hubs? Be specific.
 
@@ -155,12 +155,11 @@ Directions: With all participants at your table, respond to the following questi
 
 3.  What would you recommend using to separately send bus location and speed data at regular intervals?
 
-4.  Describe how you would send traffic light telemetry, and in turn, have the traffic lights receive commands to update their timing.
+4.  Describe how you would send traffic light telemetry, and in turn, have the traffic lights receive commands to update their timing
 
 5.  Using your ingest service, how would you handle critical messages separately to route them to custom endpoints based on message properties?
 
-    *Data and visualization*
-
+*Data and visualization*
 
 1.  Keeping the requirement for ease of use and flexibility in mind, how would you propose storing time series data for all the IoT devices? Is there a need for secondary storage?
 
@@ -170,7 +169,7 @@ Directions: With all participants at your table, respond to the following questi
 
 4.  What would you recommend using to combine bus and traffic light information, filtering the data by the close proximity of both types of IoT devices, then by average bus speed information based on predefined speed thresholds for detecting slow traffic near the traffic lights? How can this data be used to send alerts and cloud-to-device traffic light timing change messages?
 
-    *Location-based data and mapping*
+*Location-based data and mapping*
 
 1.  Relecloud wants to integrate map visualization to show the location of buses, traffic lights, and other devices. They would like to use a mapping service that does not require them to send data to an external resource, can be used with other Azure services like Stream Analytics, and supports data privacy and compliance when needed.
 
@@ -180,11 +179,17 @@ Directions: With all participants at your table, respond to the following questi
 
 Directions: With all participants at your table: 
 
-1.  Identify any customer needs that are not addressed with the proposed solution. 
-2.  Identify the benefits of your solution. 
-3.  Determine how you will respond to the customer’s objections. 
+1.  Identify any customer needs that are not addressed with the proposed solution
+2.  Identify the benefits of your solution
+3.  Determine how you will respond to the customer’s objections
 
 Prepare a 15-minute chalk-talk style presentation to the customer. 
+
+## Step 3: Present the solution
+
+**Outcome**
+
+Present a solution to the target customer audience in a 15-minute chalk-talk format.
 
 ## Step 3: Present the solution
 
@@ -192,24 +197,24 @@ Prepare a 15-minute chalk-talk style presentation to the customer.
  
 Present a solution to the target customer audience in a 15-minute chalk-talk format.
 
-Time frame: 30 minutes
+Timeframe: 30 minutes
 
 **Presentation** 
 
 Directions:
-1.  Pair with another table.
-2.  One table is the Microsoft team and the other table is the customer.
-3.  The Microsoft team presents their proposed solution to the customer.
-4.  The customer makes one of the objections from the list of objections.
-5.  The Microsoft team responds to the objection.
-6.  The customer team gives feedback to the Microsoft team. 
-7.  Tables switch roles and repeat Steps 2–6.
+1.  Pair with another table
+2.  One table is the Microsoft team and the other table is the customer
+3.  The Microsoft team presents their proposed solution to the customer
+4.  The customer makes one of the objections from the list of objections
+5.  The Microsoft team responds to the objection
+6.  The customer team gives feedback to the Microsoft team
+7.  Tables switch roles and repeat Steps 2–6
 
 ##  Wrap-up 
 
-Time frame: 15 minutes
+Timeframe: 15 minutes
 
--   Tables reconvene with the larger group to hear a SME share the preferred solution for the case study.
+Directions: Tables reconvene with the larger group to hear the facilitator/SME share the preferred solution for the case study.
 
 ##  Additional references
 
