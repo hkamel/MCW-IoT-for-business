@@ -428,7 +428,7 @@ The primary audience is the business decision makers and technology decision mak
 
 1.  Which data ingest service would you use for this scenario, IoT Hub or Event Hubs? Be specific.
 
-> Use IoT Hub to manage the devices and ingest all data. Unlike Event Hubs, it enables two-way communication between Azure and the devices, allowing the customer to send control data back to devices as needed, as well as remotely managing firmware updates. In addition, IoT Hub enables you to use and manage IoT Edge devices, which will be used on the buses.
+    Use IoT Hub to manage the devices and ingest all data. Unlike Event Hubs, it enables two-way communication between Azure and the devices, allowing the customer to send control data back to devices as needed, as well as remotely managing firmware updates. In addition, IoT Hub enables you to use and manage IoT Edge devices, which will be used on the buses.
 
 2.  How will you process the vehicle telemetry data locally to only send important data about driver performance or potential mechanical issues while the bus is in transit, with limited data connectivity?
 
