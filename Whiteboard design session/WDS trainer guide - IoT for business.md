@@ -1,4 +1,4 @@
-![](https://github.com/Microsoft/MCW-Template-Cloud-Workshop/raw/master/Media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
+![Microsoft Cloud Workshops](https://github.com/Microsoft/MCW-Template-Cloud-Workshop/raw/master/Media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
 
 
 <div class="MCWHeader1">
@@ -19,6 +19,7 @@ Information in this document, including URL and other Internet Web site referenc
 Microsoft may have patents, patent applications, trademarks, copyrights, or other intellectual property rights covering subject matter in this document. Except as expressly provided in any written license agreement from Microsoft, the furnishing of this document does not give you any license to these patents, trademarks, copyrights, or other intellectual property.
 
 The names of manufacturers, products, or URLs are provided for informational purposes only and Microsoft makes no representations and warranties, either expressed, implied, or statutory, regarding these manufacturers or the use of the products with any Microsoft technologies. The inclusion of a manufacturer or product does not imply endorsement of Microsoft of the manufacturer or product. Links may be provided to third party sites. Such sites are not under the control of Microsoft and Microsoft is not responsible for the contents of any linked site or any link contained in a linked site, or any changes or updates to such sites. Microsoft is not responsible for webcasting or any other form of transmission received from any linked site. Microsoft is providing these links to you only as a convenience, and the inclusion of any link does not imply endorsement of Microsoft of the site or the products contained therein.
+
 © 2018 Microsoft Corporation. All rights reserved.
 
 Microsoft and the trademarks listed at https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/Usage/General.aspx are trademarks of the Microsoft group of companies. All other trademarks are property of their respective owners.
@@ -64,25 +65,25 @@ Thank you for taking time to support the whiteboard design sessions as a trainer
 
 An amazing trainer:
 
--   Creates a safe environment in which learning can take place.
+-   Creates a safe environment in which learning can take place
 
--   Stimulates the participant's thinking.
+-   Stimulates the participant's thinking
 
--   Involves the participant in the learning process.
+-   Involves the participant in the learning process
 
--   Manages the learning process (on time, on topic, and adjusting to benefit participants).
+-   Manages the learning process (on time, on topic, and adjusting to benefit participants)
 
--   Ensures individual participant accountability.
+-   Ensures individual participant accountability
 
--   Ties it all together for the participant.
+-   Ties it all together for the participant
 
--   Provides insight and experience to the learning process.
+-   Provides insight and experience to the learning process
 
--   Effectively leads the whiteboard design session discussion.
+-   Effectively leads the whiteboard design session discussion
 
--   Monitors quality and appropriateness of participant deliverables.
+-   Monitors quality and appropriateness of participant deliverables
 
--   Effectively leads the feedback process.
+-   Effectively leads the feedback process
 
 ## Whiteboard design session flow 
 
@@ -90,7 +91,7 @@ Each whiteboard design session uses the following flow:
 
 **Step 1: Review the customer case study (15 minutes)**
 
-Outcome: Analyze your customer's needs
+Outcome: Analyze your customer's needs.
 
 -   Customer's background, situation, needs and technical requirements
 
@@ -100,43 +101,43 @@ Outcome: Analyze your customer's needs
 
 **Step 2: Design a proof of concept solution (60 minutes)**
 
-Outcome: Prepare to present a solution for your target customer audience
+Outcome: Design a solution and prepare to present the solution to the target customer audience in a 15-minute chalk-talk format.
 
--   Determine your target customer audience.
+-   Determine your target customer audience
 
--   Determine customer's business needs to address your solution.
+-   Determine customer's business needs to address your solution
 
--   Design and diagram your solution.
+-   Design and diagram your solution
 
--   Prepare to present your solution.
+-   Prepare to present your solution
 
 **Step 3: Present the solution (30 minutes)**
 
-Outcome: Present solution to your customer
+Outcome: Present solution to your customer.
 
--   Present solution.
+-   Present solution
 
--   Respond to customer objections.
+-   Respond to customer objections
 
--   Receive feedback.
+-   Receive feedback
 
 **Wrap-up (15 minutes)**
 
--   Review preferred solution.
+-   Review preferred solution
 
-## Before the whiteboard design session: how to prepare
+## Before the whiteboard design session: How to prepare
 
 Before conducting your first whiteboard design session:
 
--   Read the Attendee guide (including the case study) and Trainer guide.
+-   Read the Attendee guide (including the case study) and Trainer guide
 
--   Become familiar with all key points and activities.
+-   Become familiar with all key points and activities
 
--   Plan the point you want to stress, which questions you want to drive, transitions, and be ready to answer questions.
+-   Plan the point you want to stress, which questions you want to drive, transitions, and be ready to answer questions
 
--   Prior to the whiteboard design session, discuss the case study to pick up more ideas.
+-   Prior to the whiteboard design session, discuss the case study to pick up more ideas
 
--   Make notes for later.
+-   Make notes for later
 
 ## During the whiteboard design session: tips for an effective whiteboard design session
 
@@ -146,7 +147,7 @@ Before conducting your first whiteboard design session:
 
 When participants are doing activities, you can **look ahead to refresh your memory**.
 
--   **Adjust activity and whiteboard design session pace** as needed to allow time for presenting, feedback, and sharing.
+-   **Adjust activity and whiteboard design session pace** as needed to allow time for presenting, feedback, and sharing
 
 -   **Add examples, points, and stories** from your own experience. Think about stories you can share that help you make your points clearly and effectively.
 
@@ -168,7 +169,7 @@ When participants are doing activities, you can **look ahead to refresh your mem
 
 Use the unique benefits of Internet of Things (IoT) to build a smart city solution to help improve traffic and public transportation in New York City. Use a combination of the power of the cloud, along with IoT Edge devices to provide predictive maintenance of city buses, including machine learning for anomaly detection, location broadcasting to update bus route status, and to send traffic information to help inform the timing of traffic lights. Traffic lights will also receive new IoT devices that can help detect maintenance and performance issues, such as when a bulb is out. Easily view all of this information through a centralized reporting dashboard provided by Azure Time Series Insights.
 
-Learning Objectives:
+Learning objectives:
 
 -   Use Azure IoT Edge to collect vehicle telemetry data, detect anomalies with the help of a local Azure Machine Learning model, and send the summarized data to Azure IoT Hub as needed
 
@@ -185,7 +186,9 @@ Learning Objectives:
 **Outcome** 
 
 Analyze your customer’s needs.
-Time frame: 15 minutes 
+
+Timeframe: 15 minutes 
+
 Directions: With all participants in the session, the facilitator/SME presents an overview of the customer case study along with technical tips. 
 1.  Meet your table participants and trainer 
 2.  Read all of the directions for steps 1–3 in the student guide 
@@ -213,23 +216,23 @@ Following this same mandate of ease of use and future flexibility without overta
 
 ### Customer needs 
 
-1.  Reduce bus maintenance costs by analyzing city bus telemetry and applying predictive analysis provided by a trained machine learning model.
+1.  Reduce bus maintenance costs by analyzing city bus telemetry and applying predictive analysis provided by a trained machine learning model
 
-2.  Detect other anomalies, such as bus driver behavior, that can be sent as needed.
+2.  Detect other anomalies, such as bus driver behavior, that can be sent as needed
 
-3.  Reduce the amount of information transmitted to the cloud by buses, which use expensive cellular data.
+3.  Reduce the amount of information transmitted to the cloud by buses, which use expensive cellular data
 
-4.  Store the bus telemetry data locally when offline and send when internet connectivity is available.
+4.  Store the bus telemetry data locally when offline and send when internet connectivity is available
 
-5.  Send regular location updates of city buses that can be used to display on a map, update bus routes, and track traffic conditions.
+5.  Send regular location updates of city buses that can be used to display on a map, update bus routes, and track traffic conditions
 
-6.  Use the traffic information from the buses to help inform the timing of traffic lights.
+6.  Use the traffic information from the buses to help inform the timing of traffic lights
 
-7.  Install IoT devices on traffic lights for maintenance purposes.
+7.  Install IoT devices on traffic lights for maintenance purposes
 
 8.  Easily combine all of the time series data in a single pane of view, with advanced querying and filtering options, and that can automatically handle schema changes of incoming telemetry and new device types as they are added.
 
-9.  Have a custom web application to view the buses and traffic lights on a map, manage device provisioning, alert rules, reference data, and control messages.
+9.  Have a custom web application to view the buses and traffic lights on a map, manage device provisioning, alert rules, reference data, and control messages
 
 ### Customer objections 
 
@@ -248,9 +251,10 @@ Following this same mandate of ease of use and future flexibility without overta
 ## Step 2: Design a proof of concept solution
 
 **Outcome** 
+
 Design a solution and prepare to present the solution to the target customer audience in a 15-minute chalk-talk format. 
 
-Time frame: 60 minutes
+Timeframe: 60 minutes
 
 **Business needs**
 
@@ -259,27 +263,26 @@ Directions: With all participants at your table, answer the following questions 
 2.  What customer business needs do you need to address with your solution?
 
 **Design** 
-Directions: With all participants at your table, respond to the following questions on a flip chart.
 
+Directions: With all participants at your table, respond to the following questions on a flip chart.
 
  *High-level architecture*
 
 1.  Without getting into the details (the following sections will address the particular details), diagram your initial vision for handling the top-level requirements for the bus and traffic light IoT devices, data ingestion, storage, and visualization.
 
-    *IoT Devices*
+*IoT Devices*
 
-1.  Which data ingest service would you use for this scenario, IoT Hub or Event Hubs? Be specific.
+1.  Which data ingest service would you use for this scenario, IoT Hub or Event Hubs? Be specific
 
 2.  How will you process the vehicle telemetry data locally to only send important data about driver performance or potential mechanical issues while the bus is in transit, with limited data connectivity?
 
 3.  What would you recommend using to separately send bus location and speed data at regular intervals?
 
-4.  Describe how you would send traffic light telemetry, and in turn, have the traffic lights receive commands to update their timing.
+4.  Describe how you would send traffic light telemetry, and in turn, have the traffic lights receive commands to update their timing
 
 5.  Using your ingest service, how would you handle critical messages separately to route them to custom endpoints based on message properties?
 
-    *Data and visualization*
-
+*Data and visualization*
 
 1.  Keeping the requirement for ease of use and flexibility in mind, how would you propose storing time series data for all the IoT devices? Is there a need for secondary storage?
 
@@ -289,7 +292,7 @@ Directions: With all participants at your table, respond to the following questi
 
 4.  What would you recommend using to combine bus and traffic light information, filtering the data by the close proximity of both types of IoT devices, then by average bus speed information based on predefined speed thresholds for detecting slow traffic near the traffic lights? How can this data be used to send alerts and cloud-to-device traffic light timing change messages?
 
-    *Location-based data and mapping*
+*Location-based data and mapping*
 
 1.  Relecloud wants to integrate map visualization to show the location of buses, traffic lights, and other devices. They would like to use a mapping service that does not require them to send data to an external resource, can be used with other Azure services like Stream Analytics, and supports data privacy and compliance when needed.
 
@@ -299,9 +302,9 @@ Directions: With all participants at your table, respond to the following questi
 
 Directions: With all participants at your table: 
 
-1.  Identify any customer needs that are not addressed with the proposed solution. 
-2.  Identify the benefits of your solution. 
-3.  Determine how you will respond to the customer’s objections. 
+1.  Identify any customer needs that are not addressed with the proposed solution
+2.  Identify the benefits of your solution
+3.  Determine how you will respond to the customer’s objections
 
 Prepare a 15-minute chalk-talk style presentation to the customer. 
 
@@ -317,24 +320,24 @@ Present a solution to the target customer audience in a 15-minute chalk-talk for
  
 Present a solution to the target customer audience in a 15-minute chalk-talk format.
 
-Time frame: 30 minutes
+Timeframe: 30 minutes
 
 **Presentation** 
 
 Directions:
-1.  Pair with another table.
-2.  One table is the Microsoft team and the other table is the customer.
-3.  The Microsoft team presents their proposed solution to the customer.
-4.  The customer makes one of the objections from the list of objections.
-5.  The Microsoft team responds to the objection.
-6.  The customer team gives feedback to the Microsoft team. 
-7.  Tables switch roles and repeat Steps 2–6.
+1.  Pair with another table
+2.  One table is the Microsoft team and the other table is the customer
+3.  The Microsoft team presents their proposed solution to the customer
+4.  The customer makes one of the objections from the list of objections
+5.  The Microsoft team responds to the objection
+6.  The customer team gives feedback to the Microsoft team
+7.  Tables switch roles and repeat Steps 2–6
 
 ##  Wrap-up 
 
-Time frame: 15 minutes
+Timeframe: 15 minutes
 
--   Tables reconvene with the larger group to hear a SME share the preferred solution for the case study.
+Directions: Tables reconvene with the larger group to hear the facilitator/SME share the preferred solution for the case study.
 
 ##  Additional references
 
@@ -365,47 +368,43 @@ Time frame: 15 minutes
 
 ## Step 1: Review the customer case study
 
-1.  Check in with your table participants to introduce yourself as the trainer.
+-   Check in with your table participants to introduce yourself as the trainer
 
-2.  Ask, "What questions do you have about the customer case study?"
+-   Ask, "What questions do you have about the customer case study?"
 
-3.  Briefly review the steps and timeframes of the whiteboard design session.
+-   Briefly review the steps and timeframes of the whiteboard design session
 
-4.  Ready, set, go! Let the table participants begin.
+-   Ready, set, go! Let the table participants begin.
 
 ## Step 2: Design a proof of concept solution
 
-1.  Check in with your tables to ensure that they are transitioning from step to step on time.
+-   Check in with your tables to ensure that they are transitioning from step to step on time
 
-2.  Provide some feedback on their responses to the business needs and design.
+-   Provide some feedback on their responses to the business needs and design
 
-    -   Try asking questions first that will lead the participants to discover the answers on their own.
+    -   Try asking questions first that will lead the participants to discover the answers on their own
 
-3.  Provide feedback for their responses to the customer's objections.
+-   Provide feedback for their responses to the customer's objections
 
-    -   Try asking questions first that will lead the participants to discover the answers on their own.
+    -   Try asking questions first that will lead the participants to discover the answers on their own
 
 ## Step 3: Present the solution
 
-1.  Determine which table will be paired with your table before Step 3 begins.
+-   Determine which table will be paired with your table before Step 3 begins
 
-2.  For the first round, assign one table as the Microsoft team and the other table as the customer.
+-   For the first round, assign one table as the presenting team and the other table as the customer
 
-3.  Have the Microsoft team present their solution to the customer team.
+-   Have the presenting team present their solution to the customer team
 
-    -   Have the customer team provide one objection for the Microsoft team to respond to.
+    -   Have the customer team provide one objection for the presenting team to respond to
 
-    -   The presentation and objections should be no longer than 15 minutes.
+    -   The presentation, objections, and feedback should take no longer than 15 minutes
 
-4.  Have participants on the customer team give feedback to the Microsoft team.
-
-    -   The feedback should be no longer than 5 minutes.
-
-    -   If needed, the trainer may also provide feedback.
+    -   If needed, the trainer may also provide feedback
 
 ## Wrap-up
 
--   Have the table participants reconvene with the larger session group to hear a SME share the following preferred solution.
+-   Have the table participants reconvene with the larger session group to hear the facilitator/SME share the following preferred solution
 
 ##  Preferred target audience
 
@@ -445,7 +444,7 @@ The primary audience is the business decision makers and technology decision mak
     \
     Use custom endpoints and routes in IoT Hub to route device-to-cloud messages to a service-facing endpoint such as a Service Bus Queue, based on the message property. This will make sure critical messages, such as a traffic light outage or mechanical failure on a bus, to be processed separately if needed. This is accomplished by creating a new Service Bus Queue in the same subscription and region as IoT Hub, then creating a custom endpoint in IoT Hub that for the queue. Create a new route using DeviceMessages as its data source, the custom endpoint you created for the route endpoint, and a query parameter that filters on a device property, such as: level="critical". Device messages flowing into IoT Hub that meet the new routing rule will be sent to your Service Bus Queue, where any downstream services or applications can act upon the message data.
 
-    *Data and visualization*
+*Data and visualization*
 
 1.  Keeping the requirement for ease of use and flexibility in mind, how would you propose storing time series data for all the IoT devices? Is there need for secondary storage?\
     \
