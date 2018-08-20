@@ -267,7 +267,7 @@ In this task, you will provision a new Service Bus queue that will be used for r
 
 1.  Using a new tab or instance of your browser navigate to the **Azure Management** portal, <http://portal.azure.com>
 
-2.  Select **+ New**, then type **service bus** into the search box on top. Select **Service Bus** from the results
+2.  Select **+ Create a Resource**, then type **service bus** into the search box on top. Select **Service Bus** from the results
 
     ![In the Azure Portal, in the New blade, the search field is set to Service Bus.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image20.png "Azure Portal")
 
@@ -393,7 +393,7 @@ Azure Time Series Insights is the first fully managed time series database on th
 
 1.  Using a new tab or instance of your browser navigate to the **Azure Management** portal, <http://portal.azure.com>
 
-2.  Select **+ New**, then type **time series insights** into the search box on top. Select **Time Series Insights** from the results
+2.  Select **+ Create a resource**, then type **time series insights** into the search box on top. Select **Time Series Insights** from the results
 
     ![Time series insight is typed in the New blade search field.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image32.png "New blade")
 
@@ -443,13 +443,13 @@ IoT Edge devices use one or more modules to perform a series of actions locally 
 
 1.  Using a new tab or instance of your browser navigate to the **Azure Management** portal, <http://portal.azure.com>
 
-2.  Select **+ New**, then type **azure container registry** into the search box on top. Select **Azure Container Registry** from the results.
+2.  Select **+ Create a resource**, then type **container registry** into the search box on top. Select **Container Registry** from the results.
 
     ![The search field in the New blade displays Azure Container Registry.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image36.png "New blade")
 
-3.  Select the **Create** button on the **Azure Container Registry overview** blade
+3.  Select the **Create** button on the **Container Registry overview** blade
 
-4.  On the **Create container registr**y blade, specify the following configuration options:
+4.  On the **Create container registry** blade, specify the following configuration options:
 
     a.  **Name**: unique value for the registry name (ensure the green check mark appears)
 
@@ -487,15 +487,13 @@ In this task, you will provision a new Linux virtual machine that will be used t
 
     c.  **Location**: Should be the same as the location of your resource group and other services
 
-    d.  **New Storage Account Name**: specify an available name containing only lowercase letters and numbers
+    d.  **Admin Username**: labadmin
 
-    e.  **Admin Username**: labadmin
+    e.  **Admin Password**: **Make note of this password** so you can use it later
 
-    f.  **Admin Password**: **Make note of this password** so you can use it later
+    f.  **DNS Name for Public IP**: enter a valid name
 
-    g.  **DNS Name for Public IP**: enter a valid name
-
-    h.  **Ubuntu OS Version**: Select **16.04.0-LTS** or later
+    g.  **Ubuntu OS Version**: Select **16.04.0-LTS** or later
 
     ![The Quickstart template displays with the fields set to the previously defined settings.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image39.png "Quickstart template")
 
