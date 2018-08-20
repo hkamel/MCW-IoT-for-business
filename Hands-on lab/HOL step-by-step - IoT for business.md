@@ -1027,15 +1027,17 @@ In this task, you will send a job to one of the traffic light devices, using the
 
 4.  Check the box next to **Simulated.Trafficlight-01.0** (or whichever the traffic light \#1 is named in your list)
 
-5.  Select **Schedule** in the top menu
+5.  Select **jobs** in the top menu
 
-6.  In the Device Schedule form, select **DecreaseTiming** and provide a name
+6.  Select **Run Method**
 
-7.  Select **Apply**. You may view the job status in the maintenance page, if desired.
+7.  In the **Method Name**, select **DecreaseTiming** and provide a name
+
+8.  Select **Apply**. You may view the job status in the maintenance page, if desired.
 
     ![Callouts point to the previously mentioned settings and buttons in the Devices section.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image76.png "Devices section")
 
-8.  Navigate back to the dashboard and view the **timing** telemetry once again. This time, you should notice that the traffic light timing for traffic light \#1 decreased from 90 seconds to 75.
+9.  Navigate back to the dashboard and view the **timing** telemetry once again. This time, you should notice that the traffic light timing for traffic light \#1 decreased from 90 seconds to 75.
 
     ![In the Telemetry section, the decrease is circled on the graph.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image77.png "Telemetry section")
 
