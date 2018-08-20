@@ -933,13 +933,13 @@ The IoT Remote Monitoring web interface enables you to create filters that help 
 
     ![The Monitoring Web App dashboard displays with the previously described information.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image67.png "Monitoring Web App dashboard")
 
-3.  Create a new filter by selecting **Manage filters** on the upper-right portion of the dashboard
+3.  Create a new device group by selecting **Manage device groups** on the upper-right portion of the dashboard
 
     ![Screenshot of the Manage filters icon.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image68.png "Manage filters")
 
-4.  Select **+ Create Filter**, then provide the following parameters in the form:
+4.  Select **+ Create new device group**, then provide the following parameters in the form:
 
-    a.  **Filter Name**: Buses
+    a.  **Name**: Buses
 
     b.  **Field**: Properties.Reported.Type
 
@@ -947,29 +947,29 @@ The IoT Remote Monitoring web interface enables you to create filters that help 
 
     d.  **Value**: Bus
 
-    e.  **Type**: String
+    e.  **Type**: Text
 
     ![Under Create Filter, fields are set to the previously defined settings.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image69.png "Create Filter section")
 
 5.  Select **Save**
 
-6.  Create another filter with the following parameters in the form:
+6.  Create another device group with the following parameters in the form:
 
-    a.  **Filter Name**: Traffic Lights
+    a.  **Name**: Traffic Lights
 
     b.  **Field**: Properties.Reported.Type
 
     c.  **Operato**r: = Equals
 
-    d.  **Valu**e: Traffic Light
+    d.  **Value**: Traffic Light
 
-    e.  **Type**: String
+    e.  **Type**: Text
 
-7.  After creating both filters, you may select them using the filter drop-down list to the left of the map. In the screenshot below, we have selected Traffic Lights. Notice that in the telemetry graph, it shows just the two traffic light devices. Also notice that one traffic light has consistently higher voltage than the other, as dictated by the traffic device model state script modified earlier. Now we'll create a new alert for traffic lights whose voltage is too high.
+7.  After creating both device groups, you may select them using the filter drop-down list to the left of the map. In the screenshot below, we have selected Traffic Lights. Notice that in the telemetry graph, it shows just the two traffic light devices. Also notice that one traffic light has consistently higher voltage than the other, as dictated by the traffic device model state script modified earlier. Now we'll create a new alert for traffic lights whose voltage is too high.
 
     ![The Monitoring Web App dashboard displays with the previously described information.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image70.png "Monitoring Web App dashboard")
 
-8.  Select **Rules & Actions** in the left-hand menu
+8.  Select **Rules** in the left-hand menu
 
 9.  Change the filter to All devices so you can view the list of existing rules. Each one has a unique name and description, are marked with a severity level, and have filters and triggers to apply the rule to specific devices and act on certain criteria. Select **+ New rule** to create a new rule for the traffic lights.
 
