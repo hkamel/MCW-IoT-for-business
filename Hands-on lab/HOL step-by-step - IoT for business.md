@@ -977,13 +977,15 @@ The IoT Remote Monitoring web interface enables you to create filters that help 
 
 10. Specify the following values in the New rule form:
 
-    a.  **Name**: Voltage Too High
+    a.  **Rule Name**: Voltage Too High
 
     b.  **Description**: Traffic light voltage is higher than normal
 
-    c.  **Sourc**e: select your Traffic Lights group
+    c.  **Device group**: select your Traffic Lights group
 
-    d.  **Trigger**:
+    d.  **Calculation**: select Instant
+
+    e.  **Condition1**:
 
     - Field: voltage
 
@@ -991,9 +993,9 @@ The IoT Remote Monitoring web interface enables you to create filters that help 
 
     - Value: 74
 
-    e.  **Severity level**: Critical
+    f.  **Severity level**: Critical
 
-    f.  **Rule status**: Enabled
+    g.  **Rule status**: Enabled
 
     ![Fields in the New rule section are set to the previously defined settings.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image72.png "New rule section")
 
