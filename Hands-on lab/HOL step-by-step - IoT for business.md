@@ -1062,7 +1062,7 @@ In this scenario, IoT Edge devices will be installed on city buses. You will cre
 
 ### Task 1: Add a new IoT Edge device
 
-1.  Navigate to the Azure Management Azure Management portal, <http://portal.azure.com>
+1.  Navigate to the Azure Management portal, <http://portal.azure.com>
 
 2.  Open **IoT Hub** in your solution's resource group
 
