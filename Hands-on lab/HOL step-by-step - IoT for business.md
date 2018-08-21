@@ -1293,7 +1293,7 @@ In this task, you will create a Stream Analytics job that filters vehicle teleme
 
 10. In the created job, under **Job Topology**, select **Inputs**, and then select **+ Add stream input**, then select **Edge Hub**
 
-    ![Select Add stream input, then Edge Hub.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image98.tiff "Inputs blade")
+    ![Select Add stream input, then Edge Hub.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image98.png "Inputs blade")
 
 11. Provide the following configuration in the New input blade:
 
@@ -1305,9 +1305,7 @@ In this task, you will create a Stream Analytics job that filters vehicle teleme
 
     d.  **Compression**: None
 
-    e.  **Encoding**: UTF-8
-
-    ![Enter VehicleTelemetry for the input aliase, then save.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image99.tiff "Edge Hub new input")
+    ![Enter VehicleTelemetry for the input aliase, then save.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image99.png "Edge Hub new input")
 
 12. Select **Save**
 
@@ -1321,7 +1319,7 @@ In this task, you will create a Stream Analytics job that filters vehicle teleme
 
     c.  **Encoding**: UTF-8
 
-    ![Set the Output alias to Alert.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image100.tiff "Edge Hub new output")
+    ![Set the Output alias to Alert.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image100.png "Edge Hub new output")
 
 15. Select **Save**
 
@@ -1335,13 +1333,13 @@ In this task, you will create a Stream Analytics job that filters vehicle teleme
 
     c.  **Encoding**: UTF-8
 
-    ![Enter EngineAlert for the Output alias.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image101.tiff "Edge Hub new output")
+    ![Enter EngineAlert for the Output alias.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image101.png "Edge Hub new output")
 
 18. Select **Save**
 
 19. Go back to the Stream Analytics job overview pane. You will see the input and two outputs you created. Select **Edit query** to the right of the displayed Query container.
 
-    ![In the Stream Analytics overview blade, Edit query is selected.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image102.tiff "Stream Analytics overview blade")
+    ![In the Stream Analytics overview blade, Edit query is selected.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image102.png "Stream Analytics overview blade")
 
 20. Create a step that averages the engine temperature and speed over a two second duration. Create another step that selects all telemetry data, including the average values from the previous step, and specifies the following anomalies as new fields:
 
