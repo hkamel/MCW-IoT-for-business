@@ -1234,7 +1234,7 @@ In this task, you will use Visual Studio Code to complete the custom C\# IoT Edg
 
 16. Watch the VS Code terminal window. You should see a success status when the build is complete. **Take note of the tag applied to your vehicle-telemetry-simulator image**. You will need to use this tag when you add the module to your IoT Edge device via the portal later on.
 
-    ![Next to \"Successfully tagged,\" the tag is called out.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image92.tiff "VS Code terminal window")
+    ![Next to \"Successfully tagged,\" the tag is called out.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image92.png "VS Code terminal window")
 
 17. Go back to your Bash session where you have the IoT Edge runtime running on the Linux VM. If the session has closed, follow the steps once again to SSH into it.
 
@@ -1260,7 +1260,7 @@ In this task, you will create a Stream Analytics job that filters vehicle teleme
 
 3.  Make a note of the name, as it will be used to store Azure Stream Analytics data
 
-4.  Open the storage account and select **Containers** from the menu to the left
+4.  Open the storage account and select **Blobs** from the menu to the left
 
 5.  Select **+ Container** at the top of the Containers blade, then provide the following:
 
