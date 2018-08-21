@@ -1450,7 +1450,7 @@ In this task, you will deploy the vehicle telemetry module and Stream Analytics 
 
     ![Set Modules is selected in the Device Details blade top menu.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image108.png "Device Details blade")
 
-4.  Select **Add IoT Edge Module**
+4.  From the **Deployment Modules** section Select **Add IoT Edge Module**
 
     ![Add IoT Edge Module is selected in the Device Details blade.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image109.png "Device Details blade")
 
