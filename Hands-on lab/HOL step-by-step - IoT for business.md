@@ -1475,7 +1475,7 @@ In this task, you will deploy the vehicle telemetry module and Stream Analytics 
     }
     ```
 
-    ![Specify the name, image URI, and module twin\'s desired properties.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image110.tiff "IoT Edge Module blade")
+    ![Specify the name, image URI, and module twin\'s desired properties.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image110.png "IoT Edge Module blade")
 
 6.  Select **Save**
 
