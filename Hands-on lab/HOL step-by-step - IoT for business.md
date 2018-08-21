@@ -1507,7 +1507,7 @@ In this task, you will deploy the vehicle telemetry module and Stream Analytics 
     {
         "routes": {
             "alertsToCloud": "FROM /messages/modules/{moduleName}/* INTO $upstream",
-                "telemetryToAsa": "FROM /messages/modules/VehicleTelemetry/* INTO BrokeredEndpoint(\"/modules/{moduleName}/inputs/VehicleTelemetry\")"
+            "telemetryToAsa": "FROM /messages/modules/VehicleTelemetry/* INTO BrokeredEndpoint(\"/modules/{moduleName}/inputs/VehicleTelemetry\")"
         }
     }
 
@@ -1531,7 +1531,7 @@ In this task, you will deploy the vehicle telemetry module and Stream Analytics 
     docker ps\
     ```
 
-    ![Displays the list of docker images running in the IoT Edge simulator VM.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image116.tiff "Bash shell")
+    ![Displays the list of docker images running in the IoT Edge simulator VM.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image116.png "Bash shell")
 
 21. You should have four containers running at this point
 
