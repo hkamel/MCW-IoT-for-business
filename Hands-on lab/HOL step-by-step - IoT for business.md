@@ -1236,7 +1236,7 @@ In this task, you will use Visual Studio Code to complete the custom C\# IoT Edg
 
 16. Go back to your Bash session where you have the IoT Edge runtime running on the Linux VM. If the session has closed, follow the steps once again to SSH into it.
 
-17. Add the Azure Container Registry credentials to the IoT Edge runtime. These credentials will give it access to pull the container.
+17. Add the Container Registry credentials to the IoT Edge runtime. These credentials will give it access to pull the container.
 
     ```
     sudo iotedgectl login \--address \<your container registry address\    \--username \<username\    \--password \<password\>
@@ -1719,7 +1719,8 @@ The function will output to two different Cosmos DB collections. The first colle
 
     ![The Connection window displays](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image131.png "Connection window")
 >
-    ![In the Service Bus Queue trigger New Function form, fields are set to the previously defined settings.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image132.png "New function form")
+![In the Service Bus Queue trigger New Function form, fields are set to the previously defined settings](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image132.png "New function form")
+    
 
 6.  Select **Create**
 
