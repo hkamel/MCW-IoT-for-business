@@ -1947,7 +1947,7 @@ In this task, you will create the following tag that will be saved to the device
 
     ![In the list of devices, Bus1 is selected, and Simulated is set to No.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image146.png "Devices list")
 
-3.  The values in these columns are derived from the device twin's reported properties, which are all set by the simulator. However, there are no custom reported properties for the IoT Edge device at this point, so we cannot easily create a filter, or device group, because of it. We can, however, create a new tag for our device. This will update the device twin with the tag, and we can use it as the basis for the filter. Check the box next to the IoT Edge device, then select **Tag** from the top menu.
+3.  The values in these columns are derived from the device twin's reported properties, which are all set by the simulator. However, there are no custom reported properties for the IoT Edge device at this point, so we cannot easily create a filter, or device group, because of it. We can, however, create a new tag for our device. This will update the device twin with the tag, and we can use it as the basis for the filter. Check the box next to the IoT Edge device, then select **Jobs** from the top menu, then select **Tag**.
 
     ![In the Devices list, the Bus1 checkbox is selected. Next to All devices, the Tag button is selected.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image147.png "Devices list")
 
@@ -1977,13 +1977,13 @@ In this task, you will create the following tag that will be saved to the device
 
     ![In the Device Twin blade, the new tag is called out. ](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image150.png "Device Twin blade")
 
-10. Switch back over to the monitoring site, then select **Manage filters** on top of the page, as done earlier in the lab
+10. Switch back over to the monitoring site, then select **Manage Device Groups** on top of the page, as done earlier in the lab
 
-11. Select **+ Create Filter**
+11. Select **+ Create new device group**
 
 12. Provide the following configuration for the new filter:
 
-    a.  **Filter Name**: Edge Devices
+    a.  **Name**: Edge Devices
 
     b.  **Field**: tags.IsEdgeDevice
 
@@ -1991,7 +1991,7 @@ In this task, you will create the following tag that will be saved to the device
 
     d.  **Value**: Y
 
-    e.  **Type**: String
+    e.  **Type**: Text
 
     ![Fields in the Create filter section are set to the previous values.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image151.png "Create filter section")
 
