@@ -1226,21 +1226,17 @@ In this task, you will use Visual Studio Code to complete the custom C\# IoT Edg
 
 **Make note of the image name**, including the registry path. This will be used later.
 
-14. Right-click the **module.json** file, then select **Build and Push IoT Edge Module Image** in the context menu that appears
-
-    ![Right-click the generated module.json file, then select the Build and Push IoT Edge Module Image option from the context menu.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image90.png "Build and push the new IoT Edge Module image")
-
-15. In the pop-up text box that appears at the top of the VS Code window, select **amd64** as the platform of choice. This will create a Linux-based Docker image.
+14. select **amd64** as the platform of choice. This will create a Linux-based Docker image.
 
     ![Select amd64 as the platform choice.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image91.png "Select Platform")
 
-16. Watch the VS Code terminal window. You should see a success status when the build is complete. **Take note of the tag applied to your vehicle-telemetry-simulator image**. You will need to use this tag when you add the module to your IoT Edge device via the portal later on.
+15. Watch the VS Code terminal window. You should see a success status when the build is complete. **Take note of the tag applied to your vehicle-telemetry-simulator image**. You will need to use this tag when you add the module to your IoT Edge device via the portal later on.
 
     ![Next to \"Successfully tagged,\" the tag is called out.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image92.png "VS Code terminal window")
 
-17. Go back to your Bash session where you have the IoT Edge runtime running on the Linux VM. If the session has closed, follow the steps once again to SSH into it.
+16. Go back to your Bash session where you have the IoT Edge runtime running on the Linux VM. If the session has closed, follow the steps once again to SSH into it.
 
-18. Add the Azure Container Registry credentials to the IoT Edge runtime. These credentials will give it access to pull the container.
+17. Add the Azure Container Registry credentials to the IoT Edge runtime. These credentials will give it access to pull the container.
 
     ```
     sudo iotedgectl login \--address \<your container registry address\    \--username \<username\    \--password \<password\>
