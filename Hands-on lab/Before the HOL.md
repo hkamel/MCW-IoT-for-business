@@ -144,23 +144,4 @@ In this task you will perform a deployment of a the VM that will be used during 
 
 -   Validate connectivity to your Azure subscription. Launch Visual Studio, open **Server Explorer** from the View menu, and ensure that you can connect to your Azure subscription.
 
-### Task 3: Download and explore the solution files
-
--   Create a new folder on your C: drive named IoTLab
-
--   Download the sample application from here: <http://bit.ly/2E6LTT9> and extract to the IoTLab folder. You will need to copy and paste the URL into your browser, as Ctrl+Click does not honor casing in the URL.
-
-> Note: The link above is case sensitive.
-
-
-The solution is comprised of the following:
-
-|    |            |
-|----------|:-------------:|
-|  **File / folder name**  | **Description** |
-|  azure-iot-pcs-remote-monitoring-dotnet |A version of the [Azure IoT Remote Monitoring solution](https://github.com/Azure/azure-iot-pcs-remote-monitoring-dotnet), which can also be found on Azure IoT Suite. In our lab, this serves as the custom web front-end for viewing simulated IoT device telemetry, setting alert rules, and sending cloud-to-device commands. This is also used for creating new device simulations.  |
-|  ReadEngineAlerts      |  tarter project for a custom C\# IoT Edge module that generates vehicle telemetry |
-|  VehicleTelemetrySimulator   | Starter project for a custom C\# IoT Edge module that generates vehicle telemetry  |
-|  sample-vehicle-telemetry.json   |  Contains 5,000 vehicle telemetry messages, used for testing the IoT Edge Stream Analytics module |
-
 You should follow all steps provided *before* performing the Hands-on lab.
