@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Prepare the environment variables used by the application.
+
+# DocumentDb connection string
+export PCS_STORAGEADAPTER_DOCUMENTDB_CONNSTRING="..."
