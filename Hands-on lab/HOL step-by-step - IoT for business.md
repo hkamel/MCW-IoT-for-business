@@ -1218,11 +1218,11 @@ In this task, you will use Visual Studio Code to complete the custom C\# IoT Edg
     docker login -u <username>    -p <password>    <Login server>
     ```
 
-12. To build the project, right-click the **VehicleTelemetrySimulator.csproj** file in the Explorer and select **Convert to IoT Edge Module**. This process compiles the module, creates a module.json file, and creates a dockerfile used to create the Docker image.
+12. To build the project and Push it to the IoT Edge Module Image, right-click the **module.json** file in the Explorer and select **Build and Push IoT edge Module Image**. 
 
     ![Right-click the VehicleTelemetrySimulator.csproj file, then select Convert to IoT Edge Module.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image89.png "Convert to IoT Edge module")
 
-13. In the pop-up text box at the top of the VS Code window, enter the image name. For example: \<your container registry address\>/vehicle-telemetry-simulator. The Azure Container Registry address is the same as the login server that you copied from your registry. It should be in the form of \<your container registry name\>.azurecr.io. 
+13. In the pop-up text box at the top of the VS Code window, enter the image name. For example: \<your container registry address\>/vehicle-telemetry-simulator. The Container Registry address is the same as the login server that you copied from your registry. It should be in the form of \<your container registry name\>.azurecr.io. 
 
 **Make note of the image name**, including the registry path. This will be used later.
 
