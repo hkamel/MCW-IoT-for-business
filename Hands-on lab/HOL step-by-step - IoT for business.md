@@ -1154,7 +1154,7 @@ The IoT Edge runtime is deployed to all IoT Edge devices. It consists of two mod
 
 ### Task 3: Create and deploy the custom C\# IoT Edge module for vehicle telemetry
 
-In this task, you will use Visual Studio Code to complete the custom C\# IoT Edge module that simulates vehicle telemetry representing bus sensor data. Then you will create the Docker container, and register it in your Azure Container Registry instance so it can be deployed to the IoT Edge device.
+In this task, you will use Visual Studio Code to complete the custom C\# IoT Edge module that simulates vehicle telemetry representing bus sensor data. Then you will create the Docker container, and register it in your Container Registry instance so it can be deployed to the IoT Edge device.
 
 1.  Open Visual Studio Code
 
@@ -1162,7 +1162,7 @@ In this task, you will use Visual Studio Code to complete the custom C\# IoT Edg
 
     ![File/Open Folder is selected in the Visual Studio Code window.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image86.png "Visual Studio Code window")
 
-3.  Browse to the IoTLab folder where you extracted your lab files. Select **Folder**.
+3.  Browse to the lab-files in the Hands-on lab folder. Select **Folder**.
 
 4.  You may see one or more errors about unresolved dependencies or needing to add build and debug assets. Dismiss these messages, as they are not pertinent to the IoT Edge module project.
 
@@ -1270,7 +1270,7 @@ In this task, you will create a Stream Analytics job that filters vehicle teleme
 
     ![Fields in the Storage account blade are set to the previously defined settings.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image95.png "Storage account blade")
 
-6.  Select **+ New**, then type **stream analytics** into the search box on top. Select **Stream Analytics job** from the results.
+6.  Select **+ Create a resource**, then type **stream analytics** into the search box on top. Select **Stream Analytics job** from the results.
 
     ![The search field in the Azure Portal is set to stream analytics.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image96.png "Azure Portal")
 
@@ -1479,13 +1479,13 @@ In this task, you will deploy the vehicle telemetry module and Stream Analytics 
 
 6.  Select **Save**
 
-7.  Select **Import Azure Stream Analytics IoT Edge Module**
+7.  Select **Select Azure Stream Analytics Module**
 
     ![Import Azure Stream Analytics to IoT Edge Module is selected in the Device Details blade.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image111.png "Device Details blade")
 
 8.  Select your Azure subscription, then the Stream Analytics job you created in the previous task
 
-9.  Choose the option to **select storage account** from your subscriptions
+9.  if you are missing a storage account setting, click on the link to set it up
 
 10. Choose the same subscription, then select the Storage account to which you added the asa-container Container at the beginning of the previous task
 
