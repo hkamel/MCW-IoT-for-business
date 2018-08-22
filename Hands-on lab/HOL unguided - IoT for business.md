@@ -249,7 +249,7 @@ In this exercise, you will execute a series of command-line scripts to provision
 
 ### Task 1: Execute CLI commands
 
-In this task, you will navigate to the **azure-iot-pcs-remote-monitoring-dotnet\\cli** subfolder within your IoTLab folder containing the extracted solution files and execute commands to run a basic deployment of the Remote Monitoring solution.
+In this task, you will navigate to the **azure-iot-pcs-remote-monitoring-dotnet\\cli** subfolder within your Hands-on Lab\Lab-files folder containing the solution files and execute commands to run a basic deployment of the Remote Monitoring solution.
 
 #### Tasks to complete
 
@@ -382,13 +382,13 @@ Azure Time Series Insights is the first fully managed time series database on th
 
 -   You have a new Time Series Insights instance with an event source that accesses device data through the *timeseries* IoT Hub consumer group.
 
-### Task 6: Provision Azure Container Registry
+### Task 6: Provision Container Registry
 
-IoT Edge devices use one or more modules to perform a series of actions locally on the device before sending data up to the cloud. Modules include custom modules written in a language like C\#, Azure Stream Analytics that runs on the device, Azure Machine Learning, and Azure Functions. Each of these modules is hosted within a Docker container. We will be creating two modules for the IoT Edge device: a custom C\# module, and an Azure Stream Analytics module. In both cases, you will be creating a container image from the files. The images are then pushed to a registry that stores and manages them. The final step is to deploy the images from the registry onto your IoT Edge devices. Two popular Docker registry services available in the cloud are Azure Container Registry and Docker Hub. We will be using Azure Container Registry to manage and deploy the IoT Edge modules.
+IoT Edge devices use one or more modules to perform a series of actions locally on the device before sending data up to the cloud. Modules include custom modules written in a language like C\#, Azure Stream Analytics that runs on the device, Azure Machine Learning, and Azure Functions. Each of these modules is hosted within a Docker container. We will be creating two modules for the IoT Edge device: a custom C\# module, and an Azure Stream Analytics module. In both cases, you will be creating a container image from the files. The images are then pushed to a registry that stores and manages them. The final step is to deploy the images from the registry onto your IoT Edge devices. Two popular Docker registry services available in the cloud are Container Registry and Docker Hub. We will be using Container Registry to manage and deploy the IoT Edge modules.
 
 #### Tasks to complete
 
--   Provision an Azure Container Registry through the portal.
+-   Provision a Container Registry through the portal.
 
 #### Exit criteria 
 
@@ -756,9 +756,9 @@ The IoT Remote Monitoring web interface enables you to create filters that help 
 -   One of the first things you may notice is that there are new telemetry data points listed above the graph. You should also see new devices showing up on the map over New York City. In the screenshot below, the new voltage telemetry option is selected, and data for the two new traffic lights appear beneath.\
     ![The Monitoring Web App dashboard displays with the previously described information.](images/Hands-onLabunguided-IoTforbusinessimages/media/image14.png "Monitoring Web App dashboard")
 
--   Create a new filter with the following parameters:
+-   Create a new device group with the following parameters:
 
-    -   Filter Name: Buses
+    -   Name: Buses
 
     -   Field: Properties.Reported.Type
 
@@ -766,11 +766,11 @@ The IoT Remote Monitoring web interface enables you to create filters that help 
 
     -   Value: Bus
 
-    -   Type: String
+    -   Type: Text
 
--   Create another filter with the following parameters in the form:
+-   Create another device group with the following parameters in the form:
 
--   Filter Name: Traffic Lights
+-   Name: Traffic Lights
 
 -   Field: Properties.Reported.Type
 
@@ -778,7 +778,7 @@ The IoT Remote Monitoring web interface enables you to create filters that help 
 
 -   Value: Traffic Light
 
--   Type: String
+-   Type: Text
 
 -   Create a new rule following values in the New rule form:
 
@@ -877,9 +877,9 @@ In this task, you will use Visual Studio Code to complete the custom C\# IoT Edg
 
 #### Tasks to complete
 
--   Open Visual Studio Code on your development machine and open the IoTLab folder where you extracted your lab files.
+-   Open Visual Studio Code on your development machine and open the Vehicle Telemetry Simulator folder where your lab files are.
 
--   Open Program.cs within the VehicleTelemetrySimulator folder. Complete the code for TODO items 5, 6, and 7.
+-   Open Program.cs within the VehicleTelemetrySimulator\modules folder. Complete the code for TODO items 5, 6, and 7.
 
     -   Within the **Init** method:
 
@@ -889,17 +889,15 @@ In this task, you will use Visual Studio Code to complete the custom C\# IoT Edg
 
     -   Within the **GenerateMessage** method:
 
-        -   Use the DeviceClient instance (IoTHubModuleClient) to asynchronously send the event message, using the specified output name (outputName).
+        -   Use the ModuleClient instance (IoTHubModuleClient) to asynchronously send the event message, using the specified output name (outputName).
 
 -   Execute a command in the VS Code integrated terminal to login to Docker with the username, password, and login server that you copied from your Azure Container Registry when you created it.
 
--   Convert the project to an IoT Edge module.
+-   Build and Push the IoT Module.
 
 -   Specify the following container image name: \<your container registry address\>/vehicle-telemetry-simulator
 
--   Build and push the IoT Edge Module image from the generated module.json file. Select the amd64 platform.
-
--   Add the Azure Container Registry credentials to the Edge runtime. These credentials will give it access to pull the container.
+-   Add the Container Registry credentials to the Edge runtime. These credentials will give it access to pull the container.
 
 #### Exit criteria 
 
@@ -1000,7 +998,7 @@ In this task, you will deploy the vehicle telemetry module and Stream Analytics 
     {
         "routes": {
             "alertsToCloud": "FROM /messages/modules/{moduleName}/* INTO $upstream",
-                "telemetryToAsa": "FROM /messages/modules/VehicleTelemetry/* INTO BrokeredEndpoint(\"/modules/{moduleName}/inputs/VehicleTelemetry\")"
+            "telemetryToAsa": "FROM /messages/modules/VehicleTelemetry/* INTO BrokeredEndpoint(\"/modules/{moduleName}/inputs/VehicleTelemetry\")"
         }
     }
 
@@ -1050,7 +1048,7 @@ As you remember, you created an Azure Service Bus Queue to ingest messages flagg
 
 #### Tasks to complete
 
--   Open **ReadEngineAlerts\\ReadEngineAlerts.sln** in your IoTLab folder containing the extracted lab solution files.
+-   Open **ReadEngineAlerts\\ReadEngineAlerts.sln** in your lab-files folder containing the lab solution files.
 
 -   Set the **connectionString** variable in Program.cs with the Service Bus connection string you copied.
 
