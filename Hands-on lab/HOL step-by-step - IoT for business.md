@@ -1738,7 +1738,7 @@ The function will output to two different Cosmos DB collections. The first colle
 
     ![Under Outputs, New Output is selected, and below, the Azure Cosmos DB tile is selected.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image134.png "Integrate section")
 
-5.  Select **show value** next to **Azure Cosmos DB account connection**, then select your account from the list
+5.  Select **new** next to **Azure Cosmos DB account connection**, then select your account from the list
 
     ![In the DocumentDB Account blade, documentdb-rk2gj is selected.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image135.png "DocumentDB Account blade")
 
