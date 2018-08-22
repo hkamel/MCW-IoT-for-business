@@ -1172,7 +1172,9 @@ In this task, you will use Visual Studio Code to complete the custom C\# IoT Edg
 
     ![In the Explorer window, the VehicleTelemetrySimulator folder is selected.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image88.png "Explorer window")
 
-6.  Open **Program.cs**
+6.  Open **Program.cs** under the **modules** folder
+
+![In the Explorer window, the modules folder is open and Program.cs is selected.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/imageModuleProgramcs.png "Explorer window")
 
 7.  Complete the code for TODO items 5, 6, and 7
 
