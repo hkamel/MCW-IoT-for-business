@@ -120,7 +120,7 @@ In this task you will perform a deployment of a the VM that will be used during 
 
     b.  Password: Password.1!!
 
-        ![Enter demouser as the username, and Password.1!! as the password.](images/Setup/image8.png "Login credential fields")
+    ![Enter demouser as the username, and Password.1!! as the password](images/Setup/image8.png "Login credential fields")         
 
 8.  A Remote Desktop Warning will appear. Click **Don't ask me again for connections to this computer** and they click **Yes**.
 
