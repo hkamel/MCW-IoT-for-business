@@ -601,7 +601,7 @@ In this task, you will finish configuring the device models we have provided for
 
     a.  **Type**: Bus
 
-    b.  **Location((: Manhattan
+    b.  **Location**: Manhattan
 
     ![](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image46.png)
 
@@ -679,7 +679,7 @@ In this task, you will finish configuring the device models we have provided for
 
     - MessageTemplate (use the MessageTemplate value of the first telemetry as a guide): Include the fuellevel and fuellevel\_unit fields.
 
-    - **MessageSchema.Fields**:
+    - MessageSchema.Fields:
 
         a.  **fuellevel**: double
 
