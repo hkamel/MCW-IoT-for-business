@@ -150,7 +150,7 @@ Directions: With all participants at your table, respond to the following questi
 
 3.  What would you recommend using to separately send bus location and speed data at regular intervals?
 
-4.  Describe how you would send traffic light telemetry, and in turn, have the traffic lights receive commands to update their timing?
+4.  Describe how you would send traffic light telemetry, and in turn, have the traffic lights receive commands to update their timing.
 
 5.  Using your ingest service, how would you handle critical messages separately to route them to custom endpoints based on message properties?
 
