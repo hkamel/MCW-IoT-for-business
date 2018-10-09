@@ -1,4 +1,4 @@
-![Microsoft Cloud Workshop](https://github.com/Microsoft/MCW-Template-Cloud-Workshop/raw/master/Media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
+![](https://github.com/Microsoft/MCW-Template-Cloud-Workshop/raw/master/Media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
 
 
 <div class="MCWHeader1">
@@ -52,16 +52,19 @@ At the end of this whiteboard design session, you will be better able to design 
 
 ## Step 1: Review the customer case study 
 
-**Outcome** 
+**Outcome**
 
-Analyze your customer’s needs.
+Analyze your customer's needs.
 
-Timeframe: 15 minutes 
+Timeframe: 15 minutes
 
-Directions: With all participants in the session, the facilitator/SME presents an overview of the customer case study along with technical tips. 
-1.  Meet your table participants and trainer 
-2.  Read all of the directions for steps 1–3 in the student guide 
-3.  As a table team, review the following customer case study
+Directions: With all participants in the session, the facilitator/SME presents an overview of the customer case study along with technical tips.
+
+1.  Meet your table participants and trainer.
+
+2.  Read all of the directions for steps 1-3 in the student guide.
+
+3.  As a table team, review the following customer case study.
 
 #### Customer situation
 
@@ -85,23 +88,23 @@ Following this same mandate of ease of use and future flexibility without overta
 
 ### Customer needs 
 
-1.  Reduce bus maintenance costs by analyzing city bus telemetry and applying predictive analysis provided by a trained machine learning model
+1.  Reduce bus maintenance costs by analyzing city bus telemetry and applying predictive analysis provided by a trained machine learning model.
 
-2.  Detect other anomalies, such as bus driver behavior, that can be sent as needed
+2.  Detect other anomalies, such as bus driver behavior, that can be sent as needed.
 
-3.  Reduce the amount of information transmitted to the cloud by buses, which use expensive cellular data
+3.  Reduce the amount of information transmitted to the cloud by buses, which use expensive cellular data.
 
-4.  Store the bus telemetry data locally when offline and send when internet connectivity is available
+4.  Store the bus telemetry data locally when offline and send when internet connectivity is available.
 
-5.  Send regular location updates of city buses that can be used to display on a map, update bus routes, and track traffic conditions
+5.  Send regular location updates of city buses that can be used to display on a map, update bus routes, and track traffic conditions.
 
-6.  Use the traffic information from the buses to help inform the timing of traffic lights
+6.  Use the traffic information from the buses to help inform the timing of traffic lights.
 
-7.  Install IoT devices on traffic lights for maintenance purposes
+7.  Install IoT devices on traffic lights for maintenance purposes.
 
 8.  Easily combine all of the time series data in a single pane of view, with advanced querying and filtering options, and that can automatically handle schema changes of incoming telemetry and new device types as they are added.
 
-9.  Have a custom web application to view the buses and traffic lights on a map, manage device provisioning, alert rules, reference data, and control messages
+9.  Have a custom web application to view the buses and traffic lights on a map, manage device provisioning, alert rules, reference data, and control messages.
 
 ### Customer objections 
 
@@ -113,25 +116,27 @@ Following this same mandate of ease of use and future flexibility without overta
 
 ### Infographic for common scenarios
 
-![A Common Scenario of Internet of Things flowchart is split between Azure and On-Premises. At a high leve, Azure steps are: Ingest, Stream Processing, Batch Storage, Speed Serving, Batch Processing, Batch View Serving, and Analytics Clients.](images/Whiteboarddesignsessionstudentguide-IoTforbusinessimages/media/image2.png "Common Scenario for IoT")
+![A Common Scenario of Internet of Things flowchart is split between Azure and On-Premises. At a high level, Azure steps are: Ingest, Stream Processing, Batch Storage, Speed Serving, Batch Processing, Batch View Serving, and Analytics Clients.](images/Whiteboarddesignsessionstudentguide-IoTforbusinessimages/media/image2.png "Common Scenario for IoT")
 
 ## Step 2: Design a proof of concept solution
 
-**Outcome** 
+**Outcome**
 
-Design a solution and prepare to present the solution to the target customer audience in a 15-minute chalk-talk format. 
+Design a solution and prepare to present the solution to the target customer audience in a 15-minute chalk-talk format.
 
 Timeframe: 60 minutes
 
 **Business needs**
 
-Directions: With all participants at your table, answer the following questions and list the answers on a flip chart. 
-1.  Who should you present this solution to? Who is your target customer audience? Who are the decision makers? 
+Directions:  With all participants at your table, answer the following questions and list the answers on a flip chart:
+
+1.  Who should you present this solution to? Who is your target customer audience? Who are the decision makers?
+
 2.  What customer business needs do you need to address with your solution?
 
-**Design** 
+**Design**
 
-Directions: With all participants at your table, respond to the following questions on a flip chart.
+Directions: With all participants at your table, respond to the following questions on a flip chart:
 
  *High-level architecture*
 
@@ -145,7 +150,7 @@ Directions: With all participants at your table, respond to the following questi
 
 3.  What would you recommend using to separately send bus location and speed data at regular intervals?
 
-4.  Describe how you would send traffic light telemetry, and in turn, have the traffic lights receive commands to update their timing
+4.  Describe how you would send traffic light telemetry, and in turn, have the traffic lights receive commands to update their timing?
 
 5.  Using your ingest service, how would you handle critical messages separately to route them to custom endpoints based on message properties?
 
@@ -167,38 +172,41 @@ Directions: With all participants at your table, respond to the following questi
 
 **Prepare**
 
-Directions: With all participants at your table: 
+Directions: With all participants at your table:
 
-1.  Identify any customer needs that are not addressed with the proposed solution
-2.  Identify the benefits of your solution
-3.  Determine how you will respond to the customer’s objections
+1.  Identify any customer needs that are not addressed with the proposed solution.
 
-Prepare a 15-minute chalk-talk style presentation to the customer. 
+2.  Identify the benefits of your solution.
 
-## Step 3: Present the solution
+3.  Determine how you will respond to the customer's objections.
 
-**Outcome**
-
-Present a solution to the target customer audience in a 15-minute chalk-talk format.
+Prepare a 15-minute chalk-talk style presentation to the customer.
 
 ## Step 3: Present the solution
 
 **Outcome**
- 
+
 Present a solution to the target customer audience in a 15-minute chalk-talk format.
 
 Timeframe: 30 minutes
 
-**Presentation** 
+**Presentation**
 
 Directions:
-1.  Pair with another table
-2.  One table is the Microsoft team and the other table is the customer
-3.  The Microsoft team presents their proposed solution to the customer
-4.  The customer makes one of the objections from the list of objections
-5.  The Microsoft team responds to the objection
-6.  The customer team gives feedback to the Microsoft team
-7.  Tables switch roles and repeat Steps 2–6
+
+1.  Pair with another table.
+
+2.  One table is the Microsoft team and the other table is the customer.
+
+3.  The Microsoft team presents their proposed solution to the customer.
+
+4.  The customer makes one of the objections from the list of objections.
+
+5.  The Microsoft team responds to the objection.
+
+6.  The customer team gives feedback to the Microsoft team.
+
+7.  Tables switch roles and repeat Steps 2-6.
 
 ##  Wrap-up 
 
@@ -210,9 +218,9 @@ Directions: Tables reconvene with the larger group to hear the facilitator/SME s
 
 |    |            |
 |----------|:-------------:|
-| Hi-resolution version of blueprint                                       | > <https://msdn.microsoft.com/dn630664#fbid=rVymR_3WSRo>                                        |
-| What is Azure IoT Edge?                                                  | > <https://docs.microsoft.com/en-us/azure/iot-edge/how-iot-edge-works>                          |
-| Understand the requirements and tools for developing IoT Edge modules    | > <https://docs.microsoft.com/en-us/azure/iot-edge/module-development>                          |
+| Hi-resolution version of blueprint                                       | <https://msdn.microsoft.com/dn630664#fbid=rVymR_3WSRo>                                        |
+| What is Azure IoT Edge?                                                  | <https://docs.microsoft.com/en-us/azure/iot-edge/how-iot-edge-works>                          |
+| Understand the requirements and tools for developing IoT Edge modules    | <https://docs.microsoft.com/en-us/azure/iot-edge/module-development>                          |
 | Deploy Azure Machine Learning as an IoT Edge module                      | <https://docs.microsoft.com/en-us/azure/iot-edge/tutorial-deploy-machine-learning>              |
 | Deploy and monitor IoT Edge modules at scale                             | <https://docs.microsoft.com/en-us/azure/iot-edge/how-to-deploy-monitor>                         |
 | Understand and use device twins in IoT Hub                               | <https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-device-twins>                  |
