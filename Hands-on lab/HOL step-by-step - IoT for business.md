@@ -585,23 +585,23 @@ In this task, you will finish configuring the device models we have provided for
 
 2.  Set the following Simulation.InitialState values. These are the parameters used at the start of the device simulation:
 
-    a.  latitude: 40.755086
+    a.  **latitude**: 40.755086
 
-    b.  longitude: -73.984165
+    b.  **longitude**: -73.984165
 
-    c.  fuellevel: 70.0
+    c.  **fuellevel**: 70.0
 
-    d.  speed: 30.0
+    d.  **speed**: 30.0
 
-    e.  vin: Y3J9PV9TN36A4DUB9
+    e.  **vin**: Y3J9PV9TN36A4DUB9
 
     ![The previously defined vaues are circled in the JSON code window.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image45.png "JSON code window")
 
 3.  Set the following Properties:
 
-    a.  Type: Bus
+    a.  **Type**: Bus
 
-    b.  Location: Manhattan
+    b.  **Location((: Manhattan
 
     ![](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image46.png)
 
@@ -609,7 +609,7 @@ In this task, you will finish configuring the device models we have provided for
 
     a.  Telemetry \#1:
 
-    - MessageSchema.Fields:
+    - **MessageSchema.Fields**:
 
         - latitude: double
 
@@ -621,15 +621,15 @@ In this task, you will finish configuring the device models we have provided for
 
         - vin: text
 
-    - Telemetry \#2:
+    b.  Telemetry \#2:
 
-        -  MessageTemplate (use the MessageTemplate value of the first telemetry as a guide): Include the fuellevel and fuellevel\_unit fields.
+    - MessageTemplate (use the MessageTemplate value of the first telemetry as a guide): Include the fuellevel and fuellevel\_unit fields.
 
-        - MessageSchema.Fields:
+    - **MessageSchema.Fields**:
 
-            - fuellevel: double
+        - fuellevel: double
 
-            - fuellevel\_unit: text
+        - fuellevel\_unit: text
 
 ![The previously defined telemetry values are circled in the JSON code window.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image47.png "JSON code window")
 
@@ -639,23 +639,23 @@ In this task, you will finish configuring the device models we have provided for
 
 7.  Set the following Simulation.InitialState values. These are the parameters used at the start of the device simulation:
 
-    a.  latitude: 40.693935
+    a.  **latitude**: 40.693935
 
-    b.  longitude: -73.952279
+    b.  **longitude**: -73.952279
 
-    c.  fuellevel: 53.0
+    c.  **fuellevel**: 53.0
 
-    d.  speed: 42.0
+    d.  **speed**: 42.0
 
-    e.  vin: 2K0H7PNZY0RSFQ033
+    e.  **vin**: 2K0H7PNZY0RSFQ033
 
     ![The previously defined values are circled in the JSON code window.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image48.png "JSON Code Window")
 
 8.  Set the following Properties:
 
-    a.  Type: Bus
+    a.  **Type**: Bus
 
-    b.  Location: Brooklyn
+    b.  **Location**: Brooklyn
 
     ![The previously defined properties are circled in the JSON Code window.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image49.png "JSON Code window")
 
@@ -665,25 +665,25 @@ In this task, you will finish configuring the device models we have provided for
 
     - MessageSchema.Fields:
 
-        a.  latitude: double
+        a.  **latitude**: double
 
-        b.  longitude: double
+        b.  **longitude**: double
 
-        c.  speed: double
+        c.  **speed**: double
 
-        d.  speed\_unit: text
+        d.  **speed\_unit**: text
 
-        d.  vin: text
+        d.  **vin**: text
 
 - Telemetry \#2:
 
     - MessageTemplate (use the MessageTemplate value of the first telemetry as a guide): Include the fuellevel and fuellevel\_unit fields.
 
-    - MessageSchema.Fields:
+    - **MessageSchema.Fields**:
 
-        a.  fuellevel: double
+        a.  **fuellevel**: double
 
-        b.  fuellevel\_unit: text
+        b.  **fuellevel\_unit**: text
 
     ![The previously defined telemetry values are circled in the JSON code window.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image50.png "JSON code window")
 
@@ -695,13 +695,13 @@ In this task, you will finish configuring the device models we have provided for
 
     - IncreaseTiming
 
-        - Type: javascript
+        - **Type**: javascript
 
-        -  Path: IncreaseTiming-method.js
+        - **Path**: IncreaseTiming-method.js
 
     - DecreaseTiming
 
-        - Type: javascript
+        - **Type**: javascript
 
         - Path DecreaseTiming-method.js
 
@@ -1955,8 +1955,10 @@ In this task, you will create the following tag that will be saved to the device
     a.  **Job Name**: edgetag
 
     b.  Select **+ Add** tag, then enter the following values:
-        - **Name**: IsEdgeDevice
-        - **Value**: Y
+    
+    - **Name**: IsEdgeDevice
+       
+    - **Value**: Y
 
     ![Fields in the Tag section are set to the previously mentioned settings.](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image148.png "Tag section")
 
