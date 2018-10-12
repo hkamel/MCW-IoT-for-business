@@ -603,7 +603,7 @@ In this task, you will finish configuring the device models we have provided for
 
     b.  **Location**: Manhattan
 
-    ![](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image46.png)
+    ![Properties_bus_manhattan](images/Hands-onlabstep-by-step-IoTforbusinessimages/media/image46.png)
 
 4.  There are two Telemetry schemas set for this bus. The first one should send telemetry every 10 seconds, while the other one should have an interval of one minute. Complete the Telemetry values according to the following specifications:
 
