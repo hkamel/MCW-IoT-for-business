@@ -1,5 +1,5 @@
 
-![Microsoft Cloud Workshops](https://github.com/Microsoft/MCW-Template-Cloud-Workshop/raw/master/Media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
+![](https://github.com/Microsoft/MCW-Template-Cloud-Workshop/raw/master/Media/ms-cloud-workshop.png "Microsoft Cloud Workshops")
 
 <div class="MCWHeader1">
 IoT for business
@@ -10,7 +10,7 @@ Before the hands-on lab setup guide
 </div>
 
 <div class="MCWHeader3">
-April 2018
+August 2018
 </div>
 
 
@@ -24,14 +24,24 @@ The names of manufacturers, products, or URLs are provided for informational pur
 
 Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/Usage/General.aspx> are trademarks of the Microsoft group of companies. All other trademarks are property of their respective owners.# IoT for business setup
 
+**Contents**
+<!-- TOC -->
+
+- [IoT for business before the hands-on lab setup guide](#iot-for-business-before-the-hands-on-lab-setup-guide)
+    - [Requirements](#requirements)
+    - [Before the hands-on lab](#before-the-hands-on-lab)
+        - [Task 1: Perform a deployment of the LABVM](#task-1-perform-a-deployment-of-the-labvm)
+        - [Task 2: Validate connectivity to Azure](#task-2-validate-connectivity-to-azure)
+
+<!-- /TOC -->
 
 # IoT for business before the hands-on lab setup guide 
 
 ## Requirements
 
--   Microsoft Azure subscription (non-Microsoft subscription) where you are at least a co-administrator
+-   Microsoft Azure subscription (non-Microsoft subscription) where you are at least a co-administrator.
 
--   **Global Administrator role** for Azure AD within your subscription
+-   **Global Administrator role** for Azure AD within your subscription.
 
 -   Local machine or a virtual machine configured with (**complete the day before the lab!**):
 
@@ -90,17 +100,17 @@ In this exercise, you will set up your environment you will use for the rest of 
 
 In this task you will perform a deployment of a the VM that will be used during this lab.
 
-1.  Open a new private or incognito tab in your web browser, and then connect to <https://github.com/solliancenet/LABVM>
+1.  Open a new private or incognito tab in your web browser, and then connect to <https://github.com/solliancenet/LABVM>.
 
-2.  Scroll down and locate the **IoT for Business** selection and click the **Deploy to Azure** button
+2.  Scroll down and locate the **IoT for Business** selection and click the **Deploy to Azure** button.
 
     ![The IoT for Business LABVM repo on GitHub.com is shown. The Deploy to Azure button has been selected.](images/Setup/image3.png "IoT for business LABVM")
 
-3.  You will need to then authenticate with Azure
+3.  You will need to then authenticate with Azure.
 
     ![Use the sign in form to authenticate with your Azure account.](images/Setup/image4.png "Authentication dialog")
 
-4.  On the Custom Deployment page enter IoTBusiness as the Resource group and select a Location close to you
+4.  On the Custom Deployment page enter IoTBusiness as the Resource group and select a Location close to you.
 
     ![Enter IoTBusiness as the Resource Group, and a Location close to you on the Custom Deployment page.](images/Setup/image5.png "Custom deployment dialog")
 
@@ -108,9 +118,9 @@ In this task you will perform a deployment of a the VM that will be used during 
 
     ![Update the LABVM DNS Name with a globally unique name consisting of 3-24 alpha-numeric lowercase characters. Check the I agree to the terms and conditions checkbox, then click Purchase.](images/Setup/image6.png "LAVM DNS Name dialot")
 
->Note: The VM will take about 45 minutes to provision. You will need to wait for this deployment to complete prior to continuing.
+>**Note**: The VM will take about 45 minutes to provision. You will need to wait for this deployment to complete prior to continuing.
 
-6.  Once the Deployment completes, you can locate your VM in the **IotBusiness** Resource group. Open the **LABVM** and click **Connect**
+6.  Once the Deployment completes, you can locate your VM in the **IotBusiness** Resource group. Open the **LABVM** and click **Connect**.
 
     ![Click the Connect link within the LABVM virtual machine Overview blade.](images/Setup/image7.png "LABVM connect button")
 
@@ -120,47 +130,30 @@ In this task you will perform a deployment of a the VM that will be used during 
 
     b.  Password: Password.1!!
 
-        ![Enter demouser as the username, and Password.1!! as the password.](images/Setup/image8.png "Login credential fields")
+    ![Enter demouser as the username, and Password.1!! as the password](images/Setup/image8.png "Login credential fields")         
 
 8.  A Remote Desktop Warning will appear. Click **Don't ask me again for connections to this computer** and they click **Yes**.
 
-    ![Check the Don\'t ask me again for connections to this computer, then click Yes on the Remote Desktop Connection Warning dialog.](images/Setup/image9.png "Remote Desktop Connection warbubg dialog box")
+    ![Check the Don't ask me again for connections to this computer, then click Yes on the Remote Desktop Connection Warning dialog.](images/Setup/image9.png "Remote Desktop Connection warbubg dialog box")
 
-9.  You will receive a message about allowing your PC to be discoverable. Click **No**
+9.  You will receive a message about allowing your PC to be discoverable. Click **No**.
 
     ![Select No when asked whether you want to allow your PC to be discoverable by other PCs and devices on this network.](images/Setup/image10.png "Network pop-up")
 
-10. Once connected double click the Docker Icon to start the application. This will take a couple of minutes to start. You can click in the taskbar to ensure that is reads "Docker is Starting"
+10. Once connected double click the Docker Icon to start the application. This will take a couple of minutes to start. You can click in the taskbar to ensure that is reads "Docker is Starting".
 
-    ![Docker for Windows icon.](images/Setup/image11.png "Docker for Windows icon") ![Double-click the Docker Icon within the Windows taskbar to ensure Docker has started.](images/Setup/image12.png "Windows taskbar docker icon")
+    ![Docker for Windows icon.](images/Setup/image11.png "Docker for Windows icon") 
+    
+    ![Double-click the Docker Icon within the Windows taskbar to ensure Docker has started.](images/Setup/image12.png "Windows taskbar docker icon")
 
-11. When Docker for Windows is up and running you will receive the following message
+11. When Docker for Windows is up and running you will receive the following message:
 
     ![When Docker is open and displayed, it should say \"Docker is now up and running!\".](images/Setup/image13.png "Docker Welcome page")
 
 ### Task 2: Validate connectivity to Azure
 
--   From within the virtual machine, launch **Visual Studio** and validate that you can log in with your Microsoft Account when prompted
+-   From within the virtual machine, launch **Visual Studio** and validate that you can log in with your Microsoft Account when prompted.
 
 -   Validate connectivity to your Azure subscription. Launch Visual Studio, open **Server Explorer** from the View menu, and ensure that you can connect to your Azure subscription.
-
-### Task 3: Download and explore the solution files
-
--   Create a new folder on your C: drive named IoTLab
-
--   Download the sample application from here: <http://bit.ly/2E6LTT9> and extract to the IoTLab folder. You will need to copy and paste the URL into your browser, as Ctrl+Click does not honor casing in the URL.
-
-> Note: The link above is case sensitive.
-
-
-The solution is comprised of the following:
-
-|    |            |
-|----------|:-------------:|
-|  **File / folder name**  | **Description** |
-|  azure-iot-pcs-remote-monitoring-dotnet |A version of the [Azure IoT Remote Monitoring solution](https://github.com/Azure/azure-iot-pcs-remote-monitoring-dotnet), which can also be found on Azure IoT Suite. In our lab, this serves as the custom web front-end for viewing simulated IoT device telemetry, setting alert rules, and sending cloud-to-device commands. This is also used for creating new device simulations.  |
-|  ReadEngineAlerts      |  tarter project for a custom C\# IoT Edge module that generates vehicle telemetry |
-|  VehicleTelemetrySimulator   | Starter project for a custom C\# IoT Edge module that generates vehicle telemetry  |
-|  sample-vehicle-telemetry.json   |  Contains 5,000 vehicle telemetry messages, used for testing the IoT Edge Stream Analytics module |
 
 You should follow all steps provided *before* performing the Hands-on lab.
